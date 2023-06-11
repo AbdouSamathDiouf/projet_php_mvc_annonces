@@ -1,0 +1,22 @@
+{
+    "name": "abdou/php-mvc",
+    "description": "Développement d'une appllication web en php avec la programmation modulaire mvc",
+    "authors": [
+        {
+            "name": "Abdou Samath DIOUF",
+            "email": "samathabdou98@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "App\\": "src/"
+        }
+      },
+      "scripts": {
+        "start": "php -S localhost:8000 -t public/ public/index.php"
+      },
+      "config": {
+        "process-timeout": 0
+      },
+    "require": {}
+}
