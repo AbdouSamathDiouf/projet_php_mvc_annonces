@@ -2,6 +2,6 @@
 class Articles
 {
     public function index() {
-        echo "aceuil";
+        echo "Bienvenue sur la l'acceui";
     }
 }
