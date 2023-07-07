@@ -1,6 +1,0 @@
-# Démarrer le moteur de réécriture
-RewriteEngine On
-#RewriteConde %{REQUEST_FILENAME} !-f
-#RewriteConde %{REQUEST_FILENAME} !-d
-# Régles de réécriture
-RewriteRule ^([a-zA-Z0-9\-\_\/]*)$ index.php?p=$1
