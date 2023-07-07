@@ -2,7 +2,7 @@
 Ceci est une application web de petites annonces basée sur le modèle mvc en php.
 
 # Structure du dossier
-On a crée un dossier appélé "annonce-app". A l'intérieur de ce dossier, nous avons crée les sous-dossiers suivants : app, controllers, models, public, views.
+On a crée un dossier appélé "projet-php_mvc_annonces". A l'intérieur de ce dossier, nous avons crée les sous-dossiers suivants : app, controllers, models, public, views.
 
 # Dossier app
 Dans le dossier app, nous avons creé les fichiers suivants : le fichier Auth.php pour l'authentification, le fichier Autoload.php pour charger automatiquement les classes, le fichier config.php pour définir les constantes et les varibales d'envioronnement, le fichier Database.php pour la connexion à la base de données, le fichier db.sql pour le script sql(les tables et l'insertion des données), le fichier Router.php pour le routage.
@@ -39,3 +39,5 @@ Pour finir, nous allons générer une première version du dossier vendor en dem
 # Routage :
 
 J'ai rencontré un problème au niveau de mon routeur que je n'arrive pas à regler. 
+La ligne 76 de mon fichier routeur m'indique qu'il y a une erreur 
+alors que je ne l'ai pas touvée. Et quand je met cette ligne en commentaire, ça m'affiche "Page not found"

@@ -73,8 +73,7 @@ class Router
             list($controllerName, $methodName) = explode('@', $action);
 
             // Inclure le fichier du contrôleur
-            $CHEMIN =  ROOT. '/controllers/' . $controllerName . '.php';
-            require_once $CHEMIN;
+            require_once ROOT. '/controllers/' . $controllerName . '.php';
             
 
             // Créer une instance du contrôleur
